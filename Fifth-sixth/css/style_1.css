@@ -8,11 +8,6 @@ body {
   width: 100%;
   height: 22em;
 }
-.block,
-.block1 {
-  display: block;
-
-}
  .block ul li {
   /*li本来是list——item格式，display后改变格式不再显示图标，故不用设置List_style_type:none;属性*/
   display: block;
