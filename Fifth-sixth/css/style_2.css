@@ -1,0 +1,62 @@
+body {
+  font-size: 15px;
+
+}
+.entirety-margin {
+  margin-left: 2em;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+}
+.block,
+.block1 {
+  display: block;
+
+}
+ .block ul li {
+  /*li本来是list——item格式，display后改变格式不再显示图标，故不用设置List_style_type:none;属性*/
+  display: block;
+  margin-right:2em;
+  float:left;
+  width:12em;
+  margin-top: 2em;
+}
+.endfloat {
+  clear: both;
+}
+ul li {
+  list-style-type: none;
+}
+.weight {
+  font-weight:700;
+  margin-top: 2em;
+}
+a[href] {
+  text-decoration: underline;
+}
+p {
+  display: block;
+  float: left;
+}
+.weight1 {
+  font-weight: 700;
+}
+
+h2 {
+  display: block;
+  float: left;
+  width: 20%;
+  max-width: 15em;
+  height: 28em;
+  background:#3eb7e4;
+  margin: 0;
+padding-top: 5%;
+text-align: center;
+}
+.right-content {
+  display: block;
+  float: left;
+  width: 78%;
+  max-width: 45em;
+  margin-left: 2%;
+}
