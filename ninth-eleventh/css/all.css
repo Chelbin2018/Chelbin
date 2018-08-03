@@ -1,0 +1,18 @@
+* {
+-moz-box-sizing:border-box;
+-webkit-box-sizing: border-box; 
+  box-sizing: border-box;
+  font-size: 10px;
+  font-style: "Montserrat",serif;
+}
+body {
+  width: 100%;
+  margin: 0 auto;
+  overflow: auto;
+}
+.color1 {
+    color: #faf5eb;
+}
+.color2 {
+      color:#c0c2b7;
+}

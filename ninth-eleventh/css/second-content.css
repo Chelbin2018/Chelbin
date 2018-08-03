@@ -1,0 +1,49 @@
+.second-content {
+  width: 100%;
+ height: 60em;
+ background-image: url("../images/Background2.png");
+ position: relative;
+
+}
+.second-content .left-content {
+  width: 60%;
+  height: auto;
+  padding: 5em;
+position: absolute;
+top: 12em;
+left: 10em;
+}
+.second-content .left-content .color1,
+.second-content .left-content .color2 {
+  text-align: center;
+  width: 50%;
+}
+.second-content .left-content input{
+  width: 15em;
+  height: 3em;
+  margin-right: 2em;
+  margin-top: 3em;
+}
+.bgimage {
+background: #fffdfb;
+width: auto;
+height: 35em;
+margin-right: 0;
+padding-right: 0;
+text-align: center;
+margin-top:3em;
+margin-left: 5em;
+margin-bottom: 3em;
+}
+.second-content .right-content{
+  width: 70em;
+  position: absolute;
+  right:0;
+  top: 12em;
+  margin-right: 0;
+  border: 1px solid #73726e;
+  border-radius: 1.5em;
+}
+.second-content .right-content img {
+  margin-left: 5em;
+}

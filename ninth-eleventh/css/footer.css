@@ -1,0 +1,29 @@
+footer {
+  background-color: 141414;
+  height: 25em;
+  position: relative;
+}
+footer dl {
+width: 20em;
+margin: auto 3em;
+margin-top: 3em;
+}
+footer div img,
+footer dl {
+float: left;
+}
+footer dl dt ~ dd {
+line-height: 3em;
+}
+footer dl dt {
+color: #ffffff;
+text-transform: uppercase;
+}
+footer div img {
+margin-right: 1em;
+}
+footer div {
+position: absolute;
+right: 30em;
+top: 12em;
+}

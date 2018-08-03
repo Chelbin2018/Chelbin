@@ -1,0 +1,20 @@
+.fourth-content .first-part {
+  text-align: center;
+  width: 60em;
+  margin: 0 auto;
+}
+.fourth-content .first-part p {
+  font-size: 1.6em;
+}
+.fourth-content .second-part img {
+  display: block;
+  float: left;
+  margin:2em;
+  width: 50em;
+  height: 40em;
+}
+.fourth-content {
+  width: 100%;
+  height: 95em;
+  border-bottom: 0.1em solid #a7a1ab;
+}
