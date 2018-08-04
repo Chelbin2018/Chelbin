@@ -59,10 +59,3 @@ text-align: center;
 .summary{
   font-size: 1.6em;
 }
-.clearfix:after{
-   content:"";
-   display:block;
-   height:0;
-   clear:both;
-  }
-  .clearfix{zoom:1;}
