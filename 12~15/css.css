@@ -1,0 +1,257 @@
+*{
+  box-sizing: border-box;
+  font-family: "Myriad Pro",sans-serif;
+}
+body {
+  width: 100%;
+  height: 100%;
+
+}
+.entirety {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.entirety #left-content {
+  display: flex;
+  flex: 0 1 260px;
+  flex-flow: row wrap;
+  height: 100%;
+  }
+.entirety #left-content .feature-list {
+    flex: 0 1 60px;
+    height: 100%;
+    background-color: #161c24;
+}
+.entirety #left-content .Detailed-menu {
+flex: 0 1 200px;
+background-color: #1d2531;
+height: 100%;
+
+}
+.Detailed-menu dl dt {
+color: #5b6779;
+text-transform: uppercase;
+  line-height: 3;
+}
+.Detailed-menu dl dt::after {
+position: absolute;
+content: url(images/12_15_89.png);
+width: 13px;
+height: 13px;
+right: 15px;
+top: 5px;
+}
+.Detailed-menu dl dt ~ dd {
+line-height: 2.5;
+}
+
+.Detailed-menu dl dd {
+color: #b8c1cd;
+}
+hr {
+border-color: #5b6779;
+}
+.Detailed-menu .outborder {
+position: relative;
+margin-left: 10px;
+font-size: 10px;
+}
+.feature-list .upbuttom {
+position: fixed;
+width: 35px;
+height: 35px;
+left: 15px;
+top: 10px;
+}
+.feature-list .downbuttom {
+position: fixed;
+left: 5px;
+bottom: 10px;
+}
+.feature-list .downbuttom img {
+width:15px;
+height: 15px;
+}
+.feature-list .upbuttom img {
+display: block;
+width: 30px;
+height: 30px;
+margin-top: 10px;
+}
+.entirety #right-content {
+flex: 0 1 calc(100% - 260px);
+height: 100%;
+}
+header {
+width: auto;
+height: 70px;
+border-bottom: 1px solid #9ea4aa;
+}
+.currentone {
+position: fixed;
+top: 10px;
+right: 40px;
+width: 130px;
+
+}
+
+.introduce,
+.head {
+float: left;
+}
+#right-content .introduce dt {
+margin-top: 10px;
+color: #2399f1;
+line-height: 1.2;
+font-size: 12px;
+}
+#right-content .introduce dd {
+color: #b5b5b5;
+line-height: 1.2;
+font-size: 10px;
+
+}
+#right-content .left-part .search {
+width: 350px;
+border: 1px solid #9ea4aa;
+padding: 20px 40px;
+border-top: none;
+border-right: none;
+}
+#right-content .left-part {
+float: left;
+width: 350px;
+height: calc(100% - 70px);
+overflow-y: scroll;
+overflow-x: hidden;
+border: 1px solid #9ea4aa;
+border-top: none;
+color: #b1b3b9;
+}
+#right-content .left-part .personal {
+position: relative;
+border-bottom: 1px solid #9ea4aa;
+font-size: 10px;
+}
+.head img {
+width: 40px;
+height: 40px;
+margin-top: 10px;
+}
+#right-content .left-part span {
+position: absolute;
+display: block;
+width: 40px;
+height: 40px;
+top: 5px;
+right: 15px;
+font-size: 12px;
+text-align: right;
+}
+#right-content .left-part .personal p {
+display:inline-block;
+width: 250px;
+margin-left: 20px;
+}
+#right-content .right-part {
+float: left;
+height: calc(100% - 70px);
+overflow-y: scroll;
+overflow-x: hidden;
+border: 1px solid #9ea4aa;
+border-top: none;
+width: calc(100% - 350px);
+
+}
+#right-content .right-part .function-keys {
+position: relative;
+height: 46px;
+width: auto;
+margin-top: 0;
+border-bottom: 1px solid #9ea4aa;
+}
+#right-content .right-part .keys {
+position: absolute;
+top: 5px;
+right: 0px;
+margin-top: 10px;
+height: 30px;
+width: 220px;
+margin-left: 400px;
+}
+#right-content .right-part ul {
+display: inline-block;
+padding: 0;
+margin: 0;
+margin-right: 10px;
+}
+#right-content .right-part ul li {
+float: left;
+width: 25px;
+height: 25px;
+list-style-type: none;
+}
+#right-content .right-part .keys p {
+display: inline-block;
+}
+.right-part .keys li img {
+width: 25px;
+height: 25px;
+}
+#right-content .right-part article img[alt="women"],
+#right-content .right-part article img[alt="man"] {
+display: block;
+width: 50px;
+margin-left: 10px;
+margin-top: 10px;
+}
+#right-content .right-part article p {
+width: 500px;
+}
+#right-content .right-part h4 {
+width: calc(100% - 50px - 10px);
+}
+#right-content .right-part  img,
+#right-content .right-part  h4,
+#right-content .right-part  article p {
+float: left;
+}
+.boundary .line {
+display: inline-block;
+width: 200px;
+height: 1px;
+}
+.boundary .words {
+display: inline-block;
+margin: auto 10px;
+}
+.boundary {
+padding-left: 100px;
+}
+#right-content .right-part .photo {
+  display: flex;
+padding: 0;
+width: 500px;
+height: 200px;
+}
+ #right-content .right-part article .photo img[alt="mountaincover"]{
+display: none;
+position: absolute;
+top: 0;
+left: 0;
+}
+#right-content .right-part  article .photo img {
+  flex:1;
+width: 200px;
+height: 150px;
+}
+#right-content .right-part  article .photo .menu {
+  position: relative;
+  width: 200px;
+  height: 150px;
+  margin-left: 50px;
+}
+#right-content .right-part  article .photo .menu:hover img[alt="mountaincover"] {
+  display: block;
+}
