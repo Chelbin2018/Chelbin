@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+  <button id="numberput">数据输出</button>
+  <script>
+    document.getElementById("numberput").onclick = function() {
+      var result;
+    for(var i = 0;i<=9;i++)
+    {
+      for(var j = 0;j<=9;j++)
+      {
+        result = i * j;
+        console.log(result + "=" + i +"*" + j );
+      }
+    }
+    }
+  </script>
+</body>
+
+</html>
